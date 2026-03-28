@@ -59,13 +59,36 @@ echo 'GEMINI_API_KEY=your-key' >> ~/.shared-skills/api-registry/.env
 | `gemini`（默认）| `--engine gemini` | 有标点、可读性好、速度快 | 需网络 + API Key |
 | `mlx` | `--engine mlx` | 完全离线、免费 | 无标点、仅 Apple Silicon |
 
-## 作为 Claude Code Skill 使用
+## 接入各类 AI Agent
 
-将此目录放入 Claude Code 的 skills 路径，然后直接用自然语言触发：
+### 直接调用（所有平台通用）
+
+任何 AI Agent 只需运行 `run.sh` 或直接调 Python 脚本：
+
+```bash
+# 通用入口（推荐）
+bash /path/to/VideoTranscribe/run.sh --input "video.mp4"
+
+# 或直接调脚本
+python3 /path/to/VideoTranscribe/Tools/transcribe.py --input "video.mp4"
+```
+
+### Claude Code
+
+将此目录放入 `~/.shared-skills/`，直接用自然语言触发：
 
 > "帮我把这个视频转成文字"
 > "把这个 YouTube 链接的内容转录出来"
-> "提炼这段视频的核心要点"
+
+### OpenClaw / Codex / Gemini CLI
+
+在 agent 的工具调用或 bash 执行里直接写：
+
+```bash
+bash ~/.shared-skills/VideoTranscribe/run.sh --input "{{ input_url_or_path }}"
+```
+
+脚本会自动加载 Gemini API Key 并返回转录结果。
 
 ## 文件结构
 
