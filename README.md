@@ -1,6 +1,6 @@
-# VideoTranscribe — Claude Code Skill
+# 视频转文字工具（VideoTranscribe）
 
-> 视频/音频 → 文字稿 + 核心提炼，一站式搞定
+> AI 驱动的视频/音频转录工具。有字幕抓字幕，没字幕用 AI 听写——YouTube、B站、本地文件全支持。
 
 ## 功能
 
