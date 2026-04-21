@@ -105,3 +105,22 @@ VideoTranscribe/
 ## License
 
 MIT
+
+---
+
+## 📱 关注作者 / Follow Me
+
+如果这个仓库对你有帮助，欢迎关注我。后面我会持续更新更多 AI Skill、视频转字、字幕生成和内容处理工作流。
+
+If this repo helped you, follow me for more AI skills, video transcription, subtitle generation, and content workflows.
+
+- X (Twitter): [@xiaoerzhan](https://x.com/xiaoerzhan)
+- 微信公众号 / WeChat Official Account: 扫码关注 / Scan to follow
+
+<p align="center">
+  <img src="./follow-wechat-qrcode.jpg" alt="Jane WeChat Official Account QR code" width="300" />
+</p>
+
+<p align="center"><strong>中文：</strong>欢迎关注我的公众号，一起研究 AI Skill、视频转字、字幕生成和内容工作流。</p>
+
+<p align="center"><strong>English:</strong> Follow my WeChat Official Account for more AI skills, video transcription, subtitle generation, and content workflows.</p>
